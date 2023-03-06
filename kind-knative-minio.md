@@ -22,12 +22,7 @@ source install_knative_quickstart.sh
 ## 3. Install Single-node Minio on Node1
 
 ```shell
-wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio-20230222182345.0.0.x86_64.rpm -O minio.rpm
-sudo dnf install minio.rpm
-
-cd /mydata
-sudo mkdir minio
-chmod -R 777 ./minio
+source install_minio.sh
 
 minio server /mydata/minio --console-address :9090
 ```

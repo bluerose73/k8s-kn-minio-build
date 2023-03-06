@@ -3,4 +3,4 @@ sudo dnf install minio.rpm
 
 cd /mydata
 sudo mkdir minio
-chmod -R 777 ./minio
+sudo chmod -R 777 ./minio
