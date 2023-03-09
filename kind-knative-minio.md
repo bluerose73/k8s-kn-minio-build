@@ -12,19 +12,19 @@ ssh bluerose@hp134.utah.cloudlab.us
 ## 2. Install Kind + knative with knative quickstart on Node 0
 
 ```shell
-source env.sh
-source install_docker.sh
-source install_kubectl.sh
-source install_kind.sh
-source install_knative_quickstart.sh
+source setup_worker.sh
 ```
 
 ## 3. Install Single-node Minio on Node1
 
 ```shell
-source install_minio.sh
+source setup_storage.sh
 
 minio server /mydata/minio --console-address :9090
 ```
 
 ## 4. Install locust on Node 2
+
+```shell
+source setup_storage.sh
+```

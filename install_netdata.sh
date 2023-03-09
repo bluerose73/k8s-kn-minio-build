@@ -1,0 +1,1 @@
+wget -O /tmp/netdata-kickstart.sh https://my-netdata.io/kickstart.sh && sh /tmp/netdata-kickstart.sh --stable-channel --claim-token Jf30N2PHNBKMw_9ApL8kunI_MWZNrzV6nZatjE7-K3gImT5s04WhGAwfZFj-Tca7asLCYf0fYdMs1Osc-2dPdDbEJ9NlNTKrBQCmjFFNvPV-edd0nwgGiNkyBlma5OeWS5HWEnA --claim-url https://app.netdata.cloud

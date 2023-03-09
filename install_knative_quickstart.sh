@@ -8,3 +8,5 @@ wget https://github.com/knative-sandbox/kn-plugin-quickstart/releases/download/k
 chmod +x kn-quickstart
 sudo mv kn-quickstart /usr/local/bin
 kn quickstart --help
+
+sudo kn quickstart kind
