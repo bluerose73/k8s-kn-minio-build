@@ -26,5 +26,5 @@ minio server /mydata/minio --console-address :9090
 ## 4. Install locust on Node 2
 
 ```shell
-source setup_storage.sh
+source setup_loadtester.sh
 ```
