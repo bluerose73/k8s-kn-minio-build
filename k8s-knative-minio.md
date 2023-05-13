@@ -33,3 +33,13 @@ Run ``kubeadm join --token <token> <control-plane-host>:<control-plane-port> --d
 
 
 ## 6. Install Netdata resource monitor
+
+## 7. Misc
+
+Run docker as regular user
+
+```sh
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+```

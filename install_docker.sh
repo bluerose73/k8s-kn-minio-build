@@ -21,9 +21,9 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Manage Docker as a non-root user
-sudo groupadd docker || true
-sudo usermod -aG docker $USER
-newgrp docker
+# sudo groupadd docker
+# sudo usermod -aG docker $USER
+# newgrp docker
 
 # Enable CRI
 grep -v disabled_plugins /etc/containerd/config.toml | sudo tee /etc/containerd/config.toml
