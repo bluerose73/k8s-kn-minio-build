@@ -6,4 +6,3 @@ source install_knative_quickstart.sh
 
 source install_netdata.sh
 
-source install_mosh.sh
